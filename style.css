@@ -1,0 +1,30 @@
+body {
+    background-color:#dfdfdf
+}
+
+h1 {
+    font-size: 50px;
+    background-color:white
+}
+
+h2{
+    font-size: 30px;
+    padding: 25px;
+}
+
+h3{
+    font-size: 20px;
+    padding: 20px;
+}
+
+a:link {
+    color: red;
+}
+  
+a:visited {
+    color: green;
+}
+  
+a:hover {
+    text-decoration: none;
+}
