@@ -10,6 +10,7 @@ h1 {
 h2{
     font-size: 30px;
     padding: 25px;
+    border-bottom-style: inset;
 }
 
 h3{
