@@ -36,6 +36,9 @@ function hantei() {
     p.textContent = 'まちがい．答えはもっと大きいですよ';
   }
   
+  if(kaisu == 3 && kotae != yoso){
+    p.textContent = 'まちがい。残念でした答えは' + kotae + 'です。';
+  }
   if(kaisu >= 4){
     p.textContent = '答えは' + kotae + 'でした。ゲームはすでに終わっています。'
   }
