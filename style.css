@@ -1,16 +1,17 @@
 body {
-    background-color:#dfdfdf
+    background-color:#dfdfdf;
 }
 
 h1 {
     font-size: 50px;
-    background-color:white
+    background-color:white;
 }
 
 h2{
     font-size: 30px;
     padding: 25px;
     border-bottom-style: inset;
+    
 }
 
 h3{
@@ -29,3 +30,4 @@ a:visited {
 a:hover {
     text-decoration: none;
 }
+

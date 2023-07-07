@@ -47,10 +47,21 @@ let data = {
 
 ////////// 課題3-2 ここからプログラムを書こう
 
-console.log(data.name);
-console.log(data.main.temp_min);
-console.log(data.main.temp_max);
-console.log(data.wind.speed);
-console.log(data.wind.deg);
-console.log(data.main.humidity);
-console.log(data.weather[0].description);
+let b = document.querySelector('button#print');
+b.addEventListener('click', kensaku);
+
+function kensaku() {
+  let k = document.querySelector('span#kekka');
+
+  
+  k.textContent = data.name;
+  
+  //k.data.main.temp_min);
+  //k.textContent = data.main.temp_min;
+  /*k.textContent = data.main.temp_max;
+  k.textContent = data.wind.speed;
+  k.textContent = data.wind.deg;
+  k.textContent = data.main.humidity;
+  k.textContent = data.weather[0].description;*/
+}
+
