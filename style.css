@@ -1,5 +1,7 @@
 body {
     background-color:#dfdfdf;
+    
+    
 }
 
 h1 {
@@ -11,12 +13,18 @@ h2{
     font-size: 30px;
     padding: 25px;
     border-bottom-style: inset;
+    margin: 0 100px 0 100px
+}
+
+p {
     
+    margin: 0 150px 0 150px
 }
 
 h3{
     font-size: 20px;
     padding: 20px;
+    margin: 0 100px 0 100px
 }
 
 a:link {
