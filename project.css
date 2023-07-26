@@ -4,3 +4,7 @@ body {
     margin: 5em 10em 0 10em;
     padding: 0 5em 0 5em;
 }
+
+h1 {
+    font-size: 60px;
+}
